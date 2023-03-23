@@ -1,0 +1,28 @@
+@import url('./projects__boxs.css');
+.projects__section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.projects__title{
+    margin: 1rem 0;
+    color: rgb(219, 219, 219);
+    text-align: center;
+    font-size: 2.5rem;
+    text-transform: uppercase; 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    letter-spacing: 5px;
+    text-shadow: 1px 0px 3px white,
+    3px 1px 3px rgb(29, 22, 128),
+    5px 3px 6px rgb(153, 67, 67),
+    1px 0px 15px white;
+}
+
+.projects__container{
+   
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

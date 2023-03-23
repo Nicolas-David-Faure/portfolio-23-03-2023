@@ -1,0 +1,104 @@
+.projects__boxs{
+    width: calc(80% / 3);
+    height: 400px;
+    background-color: aqua;
+    margin: 2rem 2rem;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 15px 5px black ;
+    transition: transform .3s ease;
+}
+
+.projects__box_description{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.171);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    transition: .3s all ease-in;
+    overflow: hidden;
+    border-radius: 1rem;
+}
+
+.projects__box_description span{
+    width: 100%;
+    height: 40%;
+    background-color: rgba(0, 0, 0, 0.411);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0;
+    transition: all .3s;
+}
+
+.projects__box_description span p, a{
+    color: white;
+    margin: 1rem 0 ;
+}
+
+            /*HOVER*/
+.projects__boxs:hover{
+    transform: scale(1.1);
+}
+.projects__box_description:hover span{
+    opacity: 1;
+    animation: forwards mostrarSpan .3s;
+}
+.projects__box_description:hover{
+    background-color: rgba(0, 0, 0, 0.507);
+    
+}
+
+/*Imagenes de proyecto*/
+.projects__boxs:nth-child(1){
+    background: url('../../img/img-ahorcado/juego_del_ahorcado.png') center / cover no-repeat;   
+    
+}
+.projects__boxs:nth-child(2){
+    background: url('../../img/img-aluraGeek/alurageek2.png') center / cover no-repeat;   
+    
+}
+.projects__boxs:nth-child(3){
+    background: url('../../img/lista-de-tareas/listaDeTareas.png') center / cover no-repeat;   
+    
+}
+.projects__boxs:nth-child(4){
+    background: url('../../img/Encriptador/encriptador.png') center / cover no-repeat;   
+    
+}
+.projects__boxs:nth-child(5){
+    background: url('../../img/pet-shop/pet-shop.png') center / cover no-repeat;   
+    
+}
+.projects__boxs:nth-child(6){
+    background: url('../../img/HorarioDeColectivos/horarioDeCole.png') center / cover no-repeat;   
+    
+}
+@keyframes mostrarSpan{
+    0% {
+        transform: translateY(100%);
+    }
+    100%{
+        transform: translateY(0%);
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .projects__boxs{
+        width: calc(70% / 2);
+      ;
+    }
+}
+@media screen and (max-width: 500px) {
+    .projects__boxs{
+        width: calc(100%);
+   
+    }
+}
+@media screen and (min-width:635px) {
+    .projects__boxs{
+        width: calc(40%);
+     
+    }
+}

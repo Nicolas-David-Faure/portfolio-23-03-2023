@@ -1,0 +1,157 @@
+html{
+    scroll-behavior: smooth;
+}
+.header__show{
+    animation-name:showHeader;
+    visibility: visible;
+}
+
+.header__hide{
+    
+    animation-name:hideHeader;
+    visibility: hidden;
+}
+.header {
+   
+    height: 100px;
+    width: 100vw;
+    position: fixed;
+
+    background-color: var(--color-header);
+    transition: ease all .6s;
+   
+    animation-duration: .7s;
+    animation-direction: alternate;
+   
+    z-index: 100;
+}
+
+.header2 {
+    height: 100px;
+    width: 100vw;
+    position: fixed;
+    visibility: hidden;
+    z-index: 100;
+    background-color: var(--color-header);
+}
+
+/*  --------------------------------------------------------------------------  */
+
+.header__nav{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    
+   
+}
+
+.header__ul{
+    width: 100%;
+    
+    height:100%;
+    background-color: rgba(26, 25, 25, 0.342) ;
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header__list{
+    list-style: none;
+    height: 100%;
+    width: 10rem;
+    padding: 1.5rem;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: ease all 0.3s;
+
+    cursor: pointer;
+}
+.header__list:hover{
+    background-color: var(--color-li-hover);
+}
+.header__link{
+    color: var(--color-text-header);
+    text-decoration: none;
+    font-size: 1.5rem;
+    
+    transition: ease all .7s;
+    
+   
+    animation-duration: .7s;
+    animation-direction:alternate;
+
+ 
+}   
+
+
+
+/*Keyframes anoamtions*/
+
+@keyframes hideHeader {
+    0%      {
+             top: 0%;   }
+        
+    100%    {
+    top: -100%;}
+}   
+@keyframes showHeader {
+    0% {left: 100%;}
+    100% {left: 0%;}
+}
+
+
+/*Media screen*/
+@media screen and (min-width: 360px) {
+    .header {
+        height: 100vw;
+    }
+    .header__ul{  
+        flex-direction: column;
+    }
+    .header__list{
+        width: 100%;
+    }
+}
+@media screen and (min-width: 576px) {
+    .header {
+        height: 70vw;
+    }
+    .header__ul{  
+        flex-direction: column;
+    }
+    .header__list{
+        width: 100%;
+    }
+}
+@media screen and (min-width: 768px) {
+    .header {
+        height: 60vw;
+    }
+    .header__ul{  
+        flex-direction: column;
+    }
+    .header__list{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .header {
+        height: 100px;
+    }
+    .header__ul{  
+        flex-direction: row;
+    }
+    .header__list{
+        width: 100%;
+    }
+}
+@media screen and (min-width: 1268px) {
+    .header__span__menu {
+        left: 95%;
+    }
+}

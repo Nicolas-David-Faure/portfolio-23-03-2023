@@ -1,0 +1,21 @@
+footer{
+    height: 200px;
+    width: 100vw;
+    background-color: #0f141b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__h2{
+ font-size: 1.2rem;
+}
+.footer__h2_name{
+    margin-top: 2rem;
+    color: #D49858 ;
+
+    font-size: 3rem;
+    border-bottom: 1px solid white;
+   text-shadow: 5px 5px 15px rgb(199, 102, 102);
+}

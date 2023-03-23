@@ -1,0 +1,113 @@
+.about__description_card{
+    width: 80%;
+     cursor: pointer;
+     background-color: rgb(101, 65, 148);
+    height: 15%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px black;
+    overflow: hidden;
+    position: relative;
+    z-index: 5;
+    transition: ease .5s;
+    margin: 5px 0;
+}
+.about__description_card a{
+    color: rgba(79, 128, 89, 0.644);
+}
+
+.desc-primero{
+    height:25%;
+}
+.desc-primero a:hover{
+    color: azure;
+}
+
+.desc-segundo{
+    z-index: 4;
+    opacity: .6;
+    width:70%;
+}
+.desc-tercero{  
+    z-index: 3;
+    opacity: .3;
+    width: 60%;
+}
+
+.desc-primero:hover{
+   
+    box-shadow: 0 0 5px white,
+     0 0 15px rgb(252, 252, 252),
+     0 0 30px rgb(252, 252, 252);
+}
+.desc-segundo:hover{
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.925),
+    0 0 10px rgb(252, 252, 252),
+    0 0 20px rgb(252, 252, 252);
+    
+}
+.desc-tercero:hover{
+    box-shadow: 0 0 5px white,
+    0 0 10px rgb(252, 252, 252),
+    0 0 20px rgb(252, 252, 252);
+    
+}
+
+.desc-primero .about__description{
+    color:  #f2f2f2;
+}
+.desc-primero a{
+    color: rgb(95, 163, 104);
+}
+
+
+.about__description{
+    font-size: 1.1rem;
+    color: rgba(160, 155, 155, 0.315);
+    transition: ease all .5s;
+    user-select: none;
+}
+@media screen and (min-width: 360px){
+    .about__description{
+        font-size: .8rem;
+    }
+    .about__description_card{
+        width: 90%;
+        height: 100px;
+    }
+    .desc-primero{
+        height: 150px;
+    }
+    .desc-segundo{
+        width: 80%;
+    }
+    .desc-tercero{
+        width: 70%;
+    }
+}
+
+
+@media screen and (min-width:576px){
+    .about__description{
+        font-size: 1rem;
+    }
+}
+@media screen and (min-width:768px){
+    .about__description{
+        font-size: 1.2rem;
+    }
+}
+@media screen and (min-width:992px){
+    .about__description{
+        font-size: 1.3rem;
+    }
+}
+@media screen and (min-width:1024px) {
+    .about__description{
+        font-size: 1rem;
+    }
+}

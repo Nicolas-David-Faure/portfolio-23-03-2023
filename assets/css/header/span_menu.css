@@ -1,0 +1,48 @@
+.header__span__menu{
+    position: fixed;
+    background-color: rgba(30, 201, 231, 0.63);
+    left: 80%;
+    top: 10px;
+    cursor: pointer;
+    padding: .5rem;
+    border-radius: 5px;
+    z-index: 101;
+    transition: ease all .3s;
+}
+.header__span__menu:hover{
+    box-shadow: 0px 0px 10px white;
+    background-color: rgba(164, 231, 243, 0.952);
+}
+
+
+@media screen and (min-width: 360px) {
+    .header__span__menu {
+        left: 85%;
+    }
+    .header__span__menu img{
+        width: 30px;
+    }
+}
+@media screen and (min-width: 576px) {
+    .header__span__menu {
+        left: 89%;
+    }
+    .header__span__menu img{
+        width: 30px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .header__span__menu {
+        left: 93%;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .header__span__menu {
+        left: 94%;
+    }
+}
+@media screen and (min-width: 1268px) {
+    .header__span__menu {
+        left: 95%;
+    }
+}
