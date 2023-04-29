@@ -36,12 +36,15 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    text-align: center;
 }
 .projects__box_description span p, a{
     color: white;
     margin: 1rem 0 ;
 }
-
+.projects__box_description span h2{
+    font-size: 1.3rem;
+}
 
 
             /*HOVER*/
