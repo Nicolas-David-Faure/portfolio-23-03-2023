@@ -110,7 +110,9 @@
                 <span>
                     <h2>Restaurant Buena Vida</h2>
                     <p>Personal Project</p>
-                    <a target="_blank" href="https://github.com/Nicolas-David-Faure/restaurant-buena-vida">View repository</a>
+                    <div class="projects__box_description_cont_links">
+                        <a target="_blank" href="https://github.com/Nicolas-David-Faure/restaurant-buena-vida">View repository</a>
+                    </div>
                 </span>
             </div>
         </div>
@@ -118,8 +120,11 @@
             <div class="projects__box_description">
                 <span>
                     <h2>Juego del ahorcado</h2>
-                    <p>creado a partir de un challenge</p>
-                    <a target="_blank" href="https://nicolas-david-faure.github.io/JuegoDelAhorcado/">Ver proyecto</a>
+                    <p>Challenge from Oracle next Education</p>
+                    <div class="projects__box_description_cont_links">
+                        <a target="_blank" href="https://nicolas-david-faure.github.io/JuegoDelAhorcado/">View project</a>
+                        <a target="_blank" href="https://nicolas-david-faure.github.io/JuegoDelAhorcado/">View repository</a>
+                    </div>
                 </span>
             </div>
         </div>
@@ -127,8 +132,11 @@
             <div class="projects__box_description">
                 <span>
                     <h2>AluraGeek</h2>
-                    <p>creado a partir de un challenge</p>
-                    <a target="_blank" href="https://nicolas-david-faure.github.io/E-commerce-AluraGeek/">Ver proyecto</a>
+                    <p>Challenge from Oracle next Education</p>
+                    <div class="projects__box_description_cont_links">
+                        <a target="_blank" href="https://nicolas-david-faure.github.io/E-commerce-AluraGeek/">View project</a>
+                        <a target="_blank" href="https://github.com/Nicolas-David-Faure/E-commerce-AluraGeek">View repository</a>
+                    </div>
                 </span>
             </div>
         </div>
@@ -136,8 +144,11 @@
             <div class="projects__box_description">
                 <span>
                     <h2>Lista de Tareas</h2>
-                    <p>creado a partir de un challenge</p>
-                    <a target="_blank" href="https://nicolas-david-faure.github.io/App-lista-de-tareas/">Ver proyecto</a>
+                    <p>Challenge from Oracle next Education</p>
+                    <div class="projects__box_description_cont_links">
+                        <a target="_blank" href="https://nicolas-david-faure.github.io/App-lista-de-tareas/">View project</a>
+                        <a target="_blank" href="https://github.com/Nicolas-David-Faure/App-lista-de-tareas">View repository</a>
+                    </div>
                 </span>
             </div>
         </div>
@@ -145,8 +156,11 @@
             <div class="projects__box_description">
                 <span>
                     <h2>Encriptador</h2>
-                    <p>creado a partir de un challenge</p>
-                    <a target="_blank" href="https://nicolas-david-faure.github.io/Challenge-Alura-semana-1.github.io/">Ver proyecto</a>
+                    <p>Challenge from Oracle next Education</p>
+                    <div class="projects__box_description_cont_links">
+                        <a target="_blank" href="https://nicolas-david-faure.github.io/Challenge-Alura-semana-1.github.io/">View project</a>
+                        <a target="_blank" href="https://github.com/Nicolas-David-Faure/Challenge-Alura-semana-1.github.io">View repository</a>
+                    </div>
                 </span>
             </div>
         </div>
@@ -154,20 +168,15 @@
             <div class="projects__box_description">
                 <span>
                     <h2>Pet Shop - validaciones</h2>
-                    <p>creado a partir de un challenge</p>
-                    <a target="_blank" href="https://nicolas-david-faure.github.io/html-validaciones-proyecto_inicial/registro.html">Ver proyecto</a>
+                    <p>Challenge from Oracle next Education</p>
+                    <div class="projects__box_description_cont_links">
+                        <a target="_blank" href="https://nicolas-david-faure.github.io/html-validaciones-proyecto_inicial/registro.html">View project</a>
+                        <a target="_blank" href="https://github.com/Nicolas-David-Faure/html-validaciones-proyecto_inicial">View repository</a>
+                    </div>
                 </span>
             </div>
         </div>
-        <div class="projects__boxs">
-            <div class="projects__box_description">
-                <span>
-                    <h2>Horarios De Colectivos</h2>
-                    <p>creado a partir de un challenge</p>
-                    <a target="_blank" href="https://nicolas-david-faure.github.io/HorariosDeColectivos/">Ver proyecto</a>
-                </span>
-            </div>
-        </div>
+    
 
     </div>
        
@@ -185,11 +194,15 @@
                 
                                         <!--Formulario de contacto-->
                 <form class="contacto__form" action="https://formsubmit.co/nicolas.david.faure@gmail.com" method="POST">
-                    <label class="form__label" for="form__name">Ingrese su nombre</label>
-                    <input class="form__inputs" id="form__name" type="text">
-                   
-                    <label class="form__label" for="form__email">Ingrese su email</label>
-                    <input name="email" class="form__inputs" id="form__email" type="email">
+                   <div class="form__cont_label">
+                        <label class="form__label" for="form__name">Name:</label>
+                    </div> 
+                    <input class="form__inputs" placeholder="Ex: Jhon Smit" id="form__name" type="text">
+                   <div class="form__cont_label">
+                        <label class="form__label" for="form__email">Email:</label>
+                    </div>
+                    <input name="email" placeholder="Ex: any@any.com" class="form__inputs" id="form__email" type="email">
+                    
                     
                     <textarea class="form__textArea" name="mensaje" id="" cols="25" rows="4"></textarea>
                   

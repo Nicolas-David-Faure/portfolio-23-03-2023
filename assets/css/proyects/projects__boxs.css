@@ -22,7 +22,7 @@
 
 .projects__box_description span{
     width: 100%;
-    height: 40%;
+    
     background-color: rgba(0, 0, 0, 0.411);
     display: flex;
     justify-content: center;
@@ -31,11 +31,18 @@
     opacity: 0;
     transition: all .3s;
 }
-
+.projects__box_description_cont_links{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
 .projects__box_description span p, a{
     color: white;
     margin: 1rem 0 ;
 }
+
+
 
             /*HOVER*/
 .projects__boxs:hover{
