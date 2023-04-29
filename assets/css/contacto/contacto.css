@@ -32,5 +32,21 @@
     display: flex;
     align-items: center;
     flex-direction: column-reverse;
-    justify-content: space-between;
+    justify-content: space-evenly;
+}
+
+@media screen and (min-width:220px) {
+    .contacto__divisor{
+        width: 100%;
+    }
+}
+@media screen and (min-width:468px) {
+    .contacto__divisor{
+        width: 95%;
+    }
+}
+@media screen and (min-width:768px) {
+    .contacto__divisor{
+        width: 90%;
+    }
 }

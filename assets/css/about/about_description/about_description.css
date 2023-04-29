@@ -37,7 +37,7 @@
 }
 
 
-@media screen and (min-width: 360px){
+@media screen and (min-width: 220px){
     .about__container_subtitle{
         width: 100%;
         margin-bottom: 1rem;
