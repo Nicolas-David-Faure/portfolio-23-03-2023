@@ -1,9 +1,9 @@
 .projects__boxs{
-    width: calc(80% / 3);
-    height: 400px;
+    width: 300px;
+    height: 300px;
     background-color: aqua;
     margin: 2rem 2rem;
-    border-radius: 1rem;
+    border-radius: 5px;
     box-shadow: 5px 5px 15px 5px black ;
     transition: transform .3s ease;
 }
@@ -17,7 +17,7 @@
     justify-content: flex-end;
     transition: .3s all ease-in;
     overflow: hidden;
-    border-radius: 1rem;
+    border-radius: 5px;
 }
 
 .projects__box_description span{
@@ -52,26 +52,30 @@
 
 /*Imagenes de proyecto*/
 .projects__boxs:nth-child(1){
-    background: url('../../img/img-ahorcado/juego_del_ahorcado.png') center / cover no-repeat;   
+    background: url('../../img/RestaurantBV/buenaVida.png') center / cover no-repeat;   
     
 }
 .projects__boxs:nth-child(2){
-    background: url('../../img/img-aluraGeek/alurageek2.png') center / cover no-repeat;   
+    background: url('../../img/img-ahorcado/juego_del_ahorcado.png') center / cover no-repeat;   
     
 }
 .projects__boxs:nth-child(3){
-    background: url('../../img/lista-de-tareas/listaDeTareas.png') center / cover no-repeat;   
+    background: url('../../img/img-aluraGeek/alurageek2.png') center / cover no-repeat;   
     
 }
 .projects__boxs:nth-child(4){
-    background: url('../../img/Encriptador/encriptador.png') center / cover no-repeat;   
+    background: url('../../img/lista-de-tareas/listaDeTareas.png') center / cover no-repeat;   
     
 }
 .projects__boxs:nth-child(5){
-    background: url('../../img/pet-shop/pet-shop.png') center / cover no-repeat;   
+    background: url('../../img/Encriptador/encriptador.png') center / cover no-repeat;   
     
 }
 .projects__boxs:nth-child(6){
+    background: url('../../img/pet-shop/pet-shop.png') center / cover no-repeat;   
+    
+}
+.projects__boxs:nth-child(7){
     background: url('../../img/HorarioDeColectivos/horarioDeCole.png') center / cover no-repeat;   
     
 }
