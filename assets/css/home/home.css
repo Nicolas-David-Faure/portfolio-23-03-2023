@@ -10,7 +10,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-   
 }
 
 .home__container_letras{
@@ -150,10 +149,8 @@
 
 @keyframes mostrarDescripcion {
     0%{
-        
         top: -5rem;
         opacity: 0;
-        
     }
     20%{
         opacity: 0;

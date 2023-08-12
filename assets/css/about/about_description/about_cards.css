@@ -6,7 +6,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: justify;
+    text-align: start;
     padding: 50px;
     border-radius: 5px;
     box-shadow: 5px 5px 10px black;

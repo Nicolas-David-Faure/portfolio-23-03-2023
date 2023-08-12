@@ -19,9 +19,6 @@ export const animacionHeader  = spanMenu.addEventListener('click', ()=>{
  
 
   if(!header.classList.contains('header__hide')){
-  
-    
-    
     header.classList.add('header__hide')
     header.classList.remove('header__show')
     link.forEach(e =>{ 

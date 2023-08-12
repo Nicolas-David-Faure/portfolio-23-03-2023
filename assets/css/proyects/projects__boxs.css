@@ -22,7 +22,6 @@
 
 .projects__box_description span{
     width: 100%;
-    
     background-color: rgba(0, 0, 0, 0.411);
     display: flex;
     justify-content: center;
@@ -101,7 +100,7 @@
 @media screen and (max-width: 960px) {
     .projects__boxs{
         width: calc(70% / 2);
-      ;
+    
     }
 }
 @media screen and (max-width: 500px) {
