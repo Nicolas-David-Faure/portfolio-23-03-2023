@@ -1,5 +1,5 @@
 .home__container {
-    width: 100vw;
+    width: 100%;
     min-height: calc(100vh + 10vh);
     background-image: url('../../img/fondo-home2.jpg');
     background-color: rgb(255, 113, 113);
